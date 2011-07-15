@@ -6,6 +6,12 @@ import com.drew.metadata.Directory;
 import com.drew.metadata.Metadata;
 import com.drew.metadata.Tag;
 
+/**
+ * Get EXIF data from file
+ * 
+ * @author marioosh
+ *
+ */
 public class GetExif {
 	public static void main(String[] args) {
 		new GetExif(args[0]);
